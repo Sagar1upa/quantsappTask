@@ -32,24 +32,16 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bn0-vw-zGg">
-                                <rect key="frame" x="0.0" y="0.0" width="123" height="82"/>
-                                <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </view>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="Cdf-gk-Tqr" secondAttribute="bottom" constant="9" id="20k-uy-4yK"/>
                             <constraint firstAttribute="trailing" secondItem="Cdf-gk-Tqr" secondAttribute="trailing" id="B96-am-daa"/>
-                            <constraint firstAttribute="bottom" secondItem="Bn0-vw-zGg" secondAttribute="bottom" id="H7B-6I-0CM"/>
                             <constraint firstItem="Cdf-gk-Tqr" firstAttribute="top" secondItem="49X-5p-lxn" secondAttribute="bottom" constant="10" id="KJD-vi-pV8"/>
                             <constraint firstItem="49X-5p-lxn" firstAttribute="leading" secondItem="xjJ-TK-GdY" secondAttribute="leading" id="Oed-cB-yLH"/>
                             <constraint firstItem="Cdf-gk-Tqr" firstAttribute="leading" secondItem="xjJ-TK-GdY" secondAttribute="leading" id="PJJ-ay-2Pg"/>
-                            <constraint firstItem="Bn0-vw-zGg" firstAttribute="leading" secondItem="xjJ-TK-GdY" secondAttribute="leading" id="R5f-Ow-6a6"/>
                             <constraint firstAttribute="trailing" secondItem="49X-5p-lxn" secondAttribute="trailing" id="VJi-mG-ToP"/>
                             <constraint firstItem="49X-5p-lxn" firstAttribute="top" secondItem="xjJ-TK-GdY" secondAttribute="top" constant="15" id="huP-ne-dgW"/>
-                            <constraint firstItem="Bn0-vw-zGg" firstAttribute="top" secondItem="xjJ-TK-GdY" secondAttribute="top" id="rh9-bA-i1S"/>
-                            <constraint firstAttribute="trailing" secondItem="Bn0-vw-zGg" secondAttribute="trailing" id="xMS-Ou-fOW"/>
                         </constraints>
                         <userDefinedRuntimeAttributes>
                             <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
@@ -70,7 +62,6 @@
             <connections>
                 <outlet property="backView" destination="xjJ-TK-GdY" id="SPd-0T-Efl"/>
                 <outlet property="priceLabel" destination="Cdf-gk-Tqr" id="aN5-Zu-NIn"/>
-                <outlet property="shadeView" destination="Bn0-vw-zGg" id="by9-lY-5HI"/>
                 <outlet property="symbolLable" destination="49X-5p-lxn" id="xkx-5O-1Jo"/>
             </connections>
             <point key="canvasLocation" x="190.57971014492756" y="77.678571428571431"/>

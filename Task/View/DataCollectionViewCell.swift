@@ -11,7 +11,6 @@ class DataCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var backView: UIView!
     @IBOutlet weak var symbolLable: UILabel!
     @IBOutlet weak var priceLabel: UILabel!
-    @IBOutlet weak var shadeView: UIView!
     
     override func awakeFromNib() {
         super.awakeFromNib()
