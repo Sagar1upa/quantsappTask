@@ -17,10 +17,9 @@ class DataCollectionViewCell: UICollectionViewCell {
         super.awakeFromNib()
     }
 
-    func updateUI(_ object:DataStruct, arrayObject:[DataStruct]){
+    func updateUI(_ object:DataStruct){
         symbolLable.text = object.symbol
         priceLabel.text = "\(String(format: "%.2f", object.priceChange))%"
-        shadeView.alpha = CGFloat((object.priceChange/100))
         
         switch object.category.lowercased() {
         case "l":
